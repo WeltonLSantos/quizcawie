@@ -8,7 +8,7 @@ $(document).ready(function () {
             photo: "assets/images/Image542.jpg"
          },
          {
-             question: "Leandro tem 40 balas chupou 12 e deu 10 para sua irmã. Com quantas balas ele ficou?", 
+            question: "Leandro tem 40 balas chupou 12 e deu 10 para sua irmã. Com quantas balas ele ficou?", 
             choice: ["15", "18", "14", "16"],
             photoquest:"assets/images/Image542.jpg",
             answer: 1,
