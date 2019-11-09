@@ -81,8 +81,8 @@ $(document).ready(function () {
     
     $("#reset").hide();
     //click start button to start game
-    $("#intro").on("click", function () {
-            $("#intro").hide();
+    $("#introducaocomputacao").on("click", function () {
+            $("#introducaocomputacao").hide();
             displayQuestion();
             runTimer();
             for(var i = 0; i < options.length; i++) {
@@ -98,7 +98,7 @@ $(document).ready(function () {
     }
     //timer countdown
     function decrement() {
-        $("#timeleft").html("<h3>Tempo restante: " + timer + "</h3>");
+        $("#timeleft").html("<h7>Tempo restante: " + timer + "</h7>");
         timer --;
     
         //stop timer if reach 0
@@ -128,7 +128,7 @@ $(document).ready(function () {
     //	} else {
     //		console.log(pick.question);
             //iterate through answer array and display
-            $("#questionblock").html("<h4>" + pick.question + "</h4>");
+            $("#questionblock").html("<h6>" + pick.question + "</h6>");
             $("#answerblock").append("<img src=" + pick.photoquest + ">");
             newArray.push(pick);
             for(var i = 0; i < pick.choice.length; i++) {
