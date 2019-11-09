@@ -1,0 +1,35 @@
+.backquiz {
+
+  background-size: cover;
+  font-family: 'Karla', sans-serif;
+  background: url() no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ 
+}
+.carousel .carousel-item {
+  visibility: hidden;
+  width: 127px;
+  height: 200px;
+  position: absolute;
+}
+
+h6 {
+  font-size: 1.15rem;
+  line-height: 110%;
+  margin: 0;
+  color: 
+  #242126;
+}
+
+nav {
+  color: 
+#fff;
+background-color:
+  #353232;
+  width: 100%;
+  height: 56px;
+  line-height: 56px;
+}
