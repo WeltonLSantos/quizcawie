@@ -1,11 +1,12 @@
 $(document).ready(function () {
     var options = [
         {
-            question: "Quanto é 8x2+7²?", 
-            choice: ["75", "65", "256", "64"],
-            photoquest:"assets/images/Image542.jpg",
-            answer: 1,
-            photo: "assets/images/Image542.jpg"
+            question: "O gráfico a seguir estabelece a relação entre o preço total p, em reais, cobrado pelo aluguel de um
+barco de turismo em um passeio pelo litoral norte de Alagoas e o número de horas x gasto no passeio.", 
+            choice: ["70", "72", "74", "76"],
+            photoquest:"assets/images/2019-11-10_1551.png",
+            answer: 3,
+            photo: "assets/images/2019-11-10_1551.png"
          },
          {
              question: "Leandro tem 40 balas chupou 12 e deu 10 para sua irmã. Com quantas balas ele ficou?", 
