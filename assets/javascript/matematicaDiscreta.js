@@ -62,6 +62,21 @@ $(document).ready(function () {
             choice: ["42", "26", "24", "30" ],
             answer: 0,
             photo: "assets/images/Image542.jpg"
+        },
+        {
+            question: "Três funcionários de um escritório cumprem,sistematicamente,horas-extras de trabalho,inclusive aos sábados e domingos:um deles a cada 15 dias,outro a cada 18 dias e o terceiro a cada 20 dias.Se hoje,os três cumprem horas extras,a próxima vez que irão cumpri-las num mesmo dia será daqui a:",
+            choice: ["um mês", "um bimestre", "um trimestre", "um semestre" ],
+            answer: 3,
+            photo: "assets/images/Image542.jpg"
+        },
+        {
+            question: "No alto da torre de uma emissora de televisão,duas luzes piscam com frequência diferentes. A primeira luz pisca 15 vezes por minuto e a segunda,10 vezes por minuto. Em certo instante,as luzes piscam simultaneamente. Após quantos segundos as duas voltarão a piscar juntas?",
+            choice: ["10", "12", "15", "20" ],
+            answer: 1,
+            photo: "assets/images/Image542.jpg"
+        },
+        {
+            
         }];
     
     var correctCount = 0;

@@ -1,68 +1,40 @@
 $(document).ready(function () {
     var options = [
-        {
-            question: "Quanto é 8x2+7²?", 
-            choice: ["75", "65", "256", "64"],
-            photoquest:"assets/images/Image542.jpg",
-            answer: 1,
-            photo: "assets/images/Image542.jpg"
+         {
+             question: "Sendo a matriz apresentada a seguir igual a matriz identidade de ordem 2, o valor de 2x é:",
+             choice: ["-4", "6", "4", "8"],
+             photoquest:"assets/images/alge0.png",
+             answer: 3,
+             photo: "assets/images/Image542.jpg"
          },
          {
-             question: "Leandro tem 40 balas chupou 12 e deu 10 para sua irmã. Com quantas balas ele ficou?", 
-            choice: ["15", "18", "14", "16"],
-            photoquest:"assets/images/Image542.jpg",
-            answer: 1,
-            photo: "assets/images/Image542.jpg"
-         }, 
+             question: "Se A é uma matriz 2x2 e detA = 5, então o valor de det 2A é:",
+             choice: ["5", "10", "20", "25"],
+             answer: 2,
+             photo: "assets/images/Image542.jpg"
+         },
          {
-             question: "Quantos números 1 eu tenho de 1 até 191?", 
-            choice: ["140", "136", "132", "150" ],
-            photoquest:"assets/images/Image542.jpg",
-            answer: 2,
-            photo: "assets/images/Image542.jpg"
-        }, 
-        {
-            question: "Pedro tem 30 anos e tem mais três irmãos: Bianca de 27, Victor de 23 e Alex de 18. Qual a diferença de idade entre Pedro e irmão caçula?", 
-            choice: ["13", "11", "12", "14" ],
-            answer: 2,
-            photo: "assets/images/Image542.jpg"
-        }, 
-        {
-            question: "Antônio, José e Pedro tem juntos 520 figurinhas. Antônio tem 16 figurinhas a mais do que Pedro e José tem o dobro da quantidade de figurinhas de Pedro. Qual menino possui 252 figurinhas?", 
-            choice: ["Antônio", "José", "Pedro", "Nenhum deles" ],
+             question: "O sistema linear abaixo é possível e determinado se e somente se:",
+             choice: ["m=2", "m=4", "m!=-4", "m!=1"],
+             photoquest:"assets/images/alge1.png",
+             answer: 2,
+             photo: "assets/images/Image542.jpg"
+         },
+         {
+             question:"Dado a equação abaixo, calcule:",
+             choice: ["1", "-1", "-1/5", "0"],
+             photoquest:"assets/images/alge2.png", 
+             answer: 0,
+             photo: "assets/images/Image542.jpg"  
+         },
+         {
+            question:"Dada a matriz, calcule o seu determinante.",
+            choice: ["0", "20", "30", "40"],
+            photoquest:"assets/images/alge3.png", 
             answer: 1,
             photo: "assets/images/Image542.jpg"
-        }, 
-        {
-            question: "Pensei em um número e multipliquei-o por 5. Depois, somei o resultado com 3 e obtive 23. Pensei em qual número?", 
-            choice: ["3", "4", "5", "6" ],
-            answer: 1,
-            photo: "assets/images/Image542.jpg"
-        }, 
-        {
-            question: "Pedro tem 6 bolas de gude a mais do que Jorge. Os dois juntos têm 54. Quanto tem cada um?", 
-            choice: ["30 e 24", "24 e 26", "28 e 26", "32 e 22" ],
-            answer: 0,
-            photo: "assets/images/Image542.jpg"
-        }, 
-        {
-            question: "Se seis latas de leite custam 72 reais, qual o preço de 9 latas?", 
-            choice: ["108 reais", "100 reais", "90 reais", "87 reais" ],
-            answer: 0,
-            photo: "assets/images/Image542.jpg"
-        },
-        {
-            question: "Se seis pessoas comem 6 chocolates em 6 minutos, quantas pessoas comerão 80 chocolates em 48 minutos?", 
-            choice: ["12", "14", "10", "8" ],
-            answer: 2,
-            photo: "assets/images/Image542.jpg"
-        }, 
-        {
-            question: "Que número abaixo completa a sequência a seguir? 12 - 6 - 18 - 24 - ??", 
-            choice: ["42", "26", "24", "30" ],
-            answer: 0,
-            photo: "assets/images/Image542.jpg"
-        }];
+         }
+         ];
     
     var correctCount = 0;
     var wrongCount = 0;
