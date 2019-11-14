@@ -76,7 +76,7 @@ $(document).ready(function () {
     var correctCount = 0;
     var wrongCount = 0;
     var unanswerCount = 0;
-    var timer = 30;
+    var timer = 180;
     var intervalId;
     var userGuess ="";
     var running = false;
@@ -183,15 +183,15 @@ $(document).ready(function () {
     
         var hidpic = setTimeout(function() {
             $("#answerblock").empty();
-            timer= 30;
+            timer= 180;
     
         //run the score screen if all questions answered
         if ((wrongCount + correctCount + unanswerCount) === 3) {
             $("#questionblock").empty();
-            $("#questionblock").html("<h3>Game Over!  Aqui está como você fez: </h3>");
-            $("#answerblock").append("<h4> Correto: " + correctCount + "</h4>" );
-            $("#answerblock").append("<h4> Incoreto: " + wrongCount + "</h4>" );
-            $("#answerblock").append("<h4> Sem resposta: " + unanswerCount + "</h4>" );
+            $("#questionblock").html("<h5> Sua pontuação foi: </h5>");
+            $("#answerblock").append("<h6> Correto: " + correctCount + "</h6>" );
+            $("#answerblock").append("<h6> Incoreto: " + wrongCount + "</h6>" );
+            $("#answerblock").append("<h6> Sem resposta: " + unanswerCount + "</h6>" );
             $("#reset").show();
             correctCount = 0;
             wrongCount = 0;
@@ -202,7 +202,7 @@ $(document).ready(function () {
             displayQuestion();
     
         }
-        }, 5000);
+        }, 8000);
     
     
     }
