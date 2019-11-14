@@ -1,8 +1,7 @@
 $(document).ready(function () {
     var options = [
         {
-            question: "O gráfico a seguir estabelece a relação entre o preço total p, em reais, cobrado pelo aluguel de um
-barco de turismo em um passeio pelo litoral norte de Alagoas e o número de horas x gasto no passeio.", 
+            question: "O gráfico a seguir estabelece a relação entre o preço total p, em reais, cobrado pelo aluguel de um barco de turismo em um passeio pelo litoral norte de Alagoas e o número de horas x gasto no passeio.", 
             choice: ["70", "72", "74", "76"],
             photoquest:"assets/images/2019-11-10_1551.png",
             answer: 3,
