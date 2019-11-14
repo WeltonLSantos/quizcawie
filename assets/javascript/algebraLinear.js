@@ -1,40 +1,77 @@
 $(document).ready(function () {
-    var options = [
-         {
-             question: "Sendo a matriz apresentada a seguir igual a matriz identidade de ordem 2, o valor de 2x é:",
-             choice: ["-4", "6", "4", "8"],
-             photoquest:"assets/images/alge0.png",
-             answer: 3,
-             photo: "assets/images/Image542.jpg"
-         },
-         {
-             question: "Se A é uma matriz 2x2 e detA = 5, então o valor de det 2A é:",
-             choice: ["5", "10", "20", "25"],
-             answer: 2,
-             photo: "assets/images/Image542.jpg"
-         },
-         {
-             question: "O sistema linear abaixo é possível e determinado se e somente se:",
-             choice: ["m=2", "m=4", "m!=-4", "m!=1"],
-             photoquest:"assets/images/alge1.png",
-             answer: 2,
-             photo: "assets/images/Image542.jpg"
-         },
-         {
-             question:"Dado a equação abaixo, calcule:",
-             choice: ["1", "-1", "-1/5", "0"],
-             photoquest:"assets/images/alge2.png", 
-             answer: 0,
-             photo: "assets/images/Image542.jpg"  
-         },
-         {
+    var options = 
+    [
+        {
+            question: "Sendo a matriz apresentada a seguir igual a matriz identidade de ordem 2, o valor de 2x é:",
+            choice: ["-4", "6", "4", "8"],
+            photoquest:"assets/images/alge0.png",
+            answer: 3,
+            photo: "assets/images/Image542.jpg"
+        },
+        {
+            question: "Se A é uma matriz 2x2 e detA = 5, então o valor de det 2A é:",
+            choice: ["5", "10", "20", "25"],
+            photoquest:"assets/images/white.png",
+            answer: 2,
+            photo: "assets/images/Image542.jpg"
+        },
+        {
+            question: "O sistema linear abaixo é possível e determinado se e somente se:",
+            choice: ["m=2", "m=4", "m!=-4", "m!=1"],
+            photoquest:"assets/images/alge1.png",
+            answer: 2,
+            photo: "assets/images/Image542.jpg"
+        },
+        {
+            question:"Dado a equação abaixo, calcule:",
+            choice: ["1", "-1", "-1/5", "0"],
+            photoquest:"assets/images/alge2.png", 
+            answer: 0,
+            photo: "assets/images/Image542.jpg"  
+        },
+        {
             question:"Dada a matriz, calcule o seu determinante.",
             choice: ["0", "20", "30", "40"],
             photoquest:"assets/images/alge3.png", 
             answer: 1,
             photo: "assets/images/Image542.jpg"
-         }
-         ];
+        },
+        {
+            question: "Dada a matriz, calcule o Valor de X de modo que satisfaça a equação.",
+            choice: ["-3", "3", "1", "-1"],
+            photoquest:"assets/images/alge4.png", 
+            answer: 2,
+            photo: "assets/images/Image542.jpg"
+        },
+        {
+            question: "Sendo o Det(A)=4 da matriz abaixo, pode-se afirmar que o valor de x é igual a:",
+            choice: ["3", "2", "1", "0"],
+            photoquest:"assets/images/alge5.png", 
+            answer: 0,
+            photo: "assets/images/Image542.jpg"
+        },
+        {
+            question: "Dado o sistema de esquações abaixo, ele será inderminado se m for igual a:",
+            choice: ["4", "3", "2", "1"],
+            photoquest:"assets/images/alge6.png", 
+            answer: 2,
+            photo: "assets/images/Image542.jpg"
+        },
+        {
+            question: "Dado o sistema, responda:",
+            choice: ["normal", "S`D", "SPI", "completo"],
+            photoquest:"assets/images/alge7.png", 
+            answer: 2,
+            photo: "assets/images/Image542.jpg"
+        },
+        {
+            question:"Em uma competção nacional de futebol reuniu Corinthians, Palmeiras, São Paulo e Santos, que juntos marcaram 15 gols. Sabe-se que cada time marcou um número diferente de gols, cada time marcou pelo menos um gol, o Corinthians e o Palmeiras marcaram juntos 6 gols, o Palmeiras e o São Paulo marcaram juntos 7 gols e um time marcou 4 gols. O número de gols marcados pelo Palmeiras nessa competição foi:",
+            choice: ["5", "4", "3", "2"], 
+            answer: 1,
+            photo: "assets/images/Image542.jpg"
+        }
+        
+    ];
     
     var correctCount = 0;
     var wrongCount = 0;

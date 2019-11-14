@@ -10,48 +10,56 @@ $(document).ready(function () {
         {
             question: "Pedro tem 30 anos e tem mais três irmãos: Bianca de 27, Victor de 23 e Alex de 18. Qual a diferença de idade entre Pedro e irmão caçula?", 
             choice: ["13", "11", "12", "14" ],
+            photoquest:"assets/images/white.png",
             answer: 2,
             photo: "assets/images/Image542.jpg"
         },   
         {
-           question: "Sabe-se que o custo de uma determinada empresa para produzir x unidades de um determinado produto, por mês, é representado de forma simplificada pela função cujo o modelo é f(x)= 2x²-400x+10.000. Assim, quantas unidades de um determinado produto deverão ser produzidas para que o custo da empresa seja o menor possível",
-           choice: ["400", "300", "200", "100" ],
-           answer: 3,
-           photo: "assets/images/Image542.jpg"
+            question: "Sabe-se que o custo de uma determinada empresa para produzir x unidades de um determinado produto, por mês, é representado de forma simplificada pela função cujo o modelo é f(x)= 2x²-400x+10.000. Assim, quantas unidades de um determinado produto deverão ser produzidas para que o custo da empresa seja o menor possível",
+            choice: ["400", "300", "200", "100" ],
+            photoquest:"assets/images/white.png",
+            answer: 3,
+            photo: "assets/images/Image542.jpg"
         },
         {
             question: "Uma loja de departamento vende uma camisa por R$ 20,00 e 100 unidades desta camisa por mês. Observou-se que para cada real de desconto no preço da camisa as vendas aumentaram em 10 unidades por mês. Quanto deve ser o desconto em reais, de modo a se obter um faturamento mensal máximo na venda deste modelo de camisa?",
             choice: ["5", "6", "7", "8" ],
+            photoquest:"assets/images/white.png",
             answer: 0,
             photo: "assets/images/Image542.jpg"
         },
         {
             question: "Um vírus se espalha em uma cidade com determinada rapidez. Em geral, essa rapidez é diretamente proporcional ao número de pessoas infectadas e, também, ao número de pessoas não infectadas. Sendo R a rapidez de propagação desse vírus e x o número de pessoas infectadas, tem-se R(x) = 2x(25000-x). A máxima rapidez de propagação do vírus ocorrerá quando o número de pessoas infectadas for igual a:",
             choice: ["125.000", "250.000", "31.250", "62.500" ],
+            photoquest:"assets/images/white.png",
             answer: 0,
             photo: "assets/images/Image542.jpg"
         },
         {
             question: "O lucro de uma empresa é dado por L(x) = - 10x² + 120x - 200 onde x é a quantidade vendida. Para que valor de x obtém lucro máximo?",
             choice: ["2", "4", "6", "8" ],
+            photoquest:"assets/images/white.png",
             answer: 2,
             photo: "assets/images/Image542.jpg"
         },
         {
             question: "Um objeto lançado ao ar desenvolve uma trajetória descrita por y = - 3x² - 3x + 9, onde y é a altura em metros. Qual foi a altura máxima, em metros, atingida por esse objeto?",
             choice: ["6,25", "7,50", "8,25", "9,75" ],
+            photoquest:"assets/images/white.png",
             answer: 3,
             photo: "assets/images/Image542.jpg"
         },
         {
             question: "Dividir um número por 0,0125 equivale a multiplicá-lo por",
             choice: ["1/125", "1/8", "12,5", "80" ],
+            photoquest:"assets/images/white.png",
             answer: 3,
             photo: "assets/images/Image542.jpg"
         },
         {
             question: "Simplificando a fração (2004+2004)/(2004+2004+2004)  obtemos :",
             choice: ["2004", "2/3", "2/7", "1/2004" ],
+            photoquest:"assets/images/white.png",
             answer: 1,
             photo: "assets/images/Image542.jpg"
         },
@@ -100,30 +108,35 @@ $(document).ready(function () {
         {
             question: "Qual a integral do Cosseno?",
             choice: ["Tangente", "-Tangente", "Seno", "-Seno"],
+            photoquest:"assets/images/white.png",
             answer: 2,
             photo: "assets/images/Image542.jpg"
         },
         {
             question: "Qual a integral do Seno?",
             choice: ["Cosseno", "-Cosseno", "Secante", "Tangente"],
+            photoquest:"assets/images/white.png",
             answer: 1,
             photo: "assets/images/Image542.jpg"
         },
         {
             question: "Qual a derivada do Seno?",
             choice: ["Cosseno", "-Cosseno", "Secante", "Tangente"],
+            photoquest:"assets/images/white.png",
             answer: 0,
             photo: "assets/images/Image542.jpg"
         },
         {
             question: "Qual a derivada do Cosseno?",
             choice: ["Tangente", "-Tangente", "Seno", "-Seno"],
+            photoquest:"assets/images/white.png",
             answer: 3,
             photo: "assets/images/Image542.jpg"
         },
         {
             question: " Considera os conjuntos A = {(1,2), (1,3), (2,3)} e B = {1, 2, 3, 4, 5}, e seja a função f: A → B tal que f (x,y) = x + y.",
             choice: ["Sobrejetora", "bijetora", "Injetora", "Par"],
+            photoquest:"assets/images/white.png",
             answer: 2,
             photo: "assets/images/Image542.jpg"
         }];

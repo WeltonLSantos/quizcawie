@@ -5,7 +5,8 @@ $(document).ready(function () {
              choice: ["Nenhum paraense é brasileiro.", 
 					  "Maria não é paraense.", 
 					  "Maria é brasileira.", 
-					  "Maria não é brasileira."],
+                      "Maria não é brasileira."],
+             photoquest:"assets/images/white.png",
              answer: 2,
              photo: "assets/images/Image542.jpg"
          },
@@ -14,7 +15,8 @@ $(document).ready(function () {
              choice: ["Matheus gosta de matemática ou João não gosta de inglês.", 
 					  "Matheus não gosta de matemática ou João não gosta de inglês.", 
 					  "Matheus gosta de matemática se João não gosta de inglês.", 
-					  "Matheus não gosta de matemática e João gosta de inglês."],
+                      "Matheus não gosta de matemática e João gosta de inglês."],
+             photoquest:"assets/images/white.png",
              answer: 1,
              photo: "assets/images/Image542.jpg"
          },
@@ -23,7 +25,8 @@ $(document).ready(function () {
              choice: ["Eu joguei.", 
 					  "Eu estudei.", 
 					  "Eu estudei e também joguei.", 
-					  "Eu nem joguei e nem estudei."],
+                      "Eu nem joguei e nem estudei."],
+             photoquest:"assets/images/white.png",
              answer: 0,
              photo: "assets/images/Image542.jpg"
          },
@@ -32,7 +35,8 @@ $(document).ready(function () {
              choice: ["Pedro é Agente Comunitário de Saúde.", 
 					  "Minas Gerais é um estado brasileiro.", 
 					  "Lucas é maior de idade.", 
-					  "Rogério irá realizar a prova do concurso?"],
+                      "Rogério irá realizar a prova do concurso?"],
+             photoquest:"assets/images/white.png",
              answer: 3,
              photo: "assets/images/Image542.jpg"  
          },
@@ -41,7 +45,8 @@ $(document).ready(function () {
             choice: ["Hoje não estudo e amanhã trabalho.", 
 					 "Amanhã não trabalho.", 
 					 "Se amanhã trabalho, então hoje não estudo.", 
-					 "Hoje estudo e amanhã trabalho."],
+                     "Hoje estudo e amanhã trabalho."],
+            photoquest:"assets/images/white.png",
             answer: 3,
             photo: "assets/images/Image542.jpg"
          },
@@ -50,7 +55,8 @@ $(document).ready(function () {
             choice: ["9kg", 
 					 "12kg", 
 					 "13kg", 
-					 "16kg"],
+                     "16kg"],
+            photoquest:"assets/images/white.png",
             answer: 2,
             photo: "assets/images/Image542.jpg"
          },
@@ -59,7 +65,8 @@ $(document).ready(function () {
             choice: ["Esse transporte não é irregular ou houve fiscalização adequada", 
 					 "Esse transporte não é irregular e houve fiscalização adequada", 
 					 "Esse transporte é irregular ou houve fiscalização adequada", 
-					 "Esse transporte é irregular e houve fiscalização adequada"],
+                     "Esse transporte é irregular e houve fiscalização adequada"],
+            photoquest:"assets/images/white.png",
             answer: 1,
             photo: "assets/images/Image542.jpg"
          },
@@ -68,7 +75,8 @@ $(document).ready(function () {
             choice: ["Carlos não passou no vestibular e vai estudar numa faculdade particular.", 
 					 "Carlos passou no vestibular ou vai estudar numa faculdade particular.", 
 					 "Se Carlos passou no vestibular, então não vai estudarnuma faculdade particular.", 
-					 "Esse transporte é irregular e houve fiscalização adequada"],
+                     "Esse transporte é irregular e houve fiscalização adequada"],
+            photoquest:"assets/images/white.png",
             answer: 1,
             photo: "assets/images/Image542.jpg"
          },
@@ -77,7 +85,8 @@ $(document).ready(function () {
             choice: ["p v ~ q", 
 					 "p ^ ~ q", 
 					 "~ p ^ q", 
-					 "~ p v ~ q"],
+                     "~ p v ~ q"],
+            photoquest:"assets/images/white.png",
             answer: 1,
             photo: "assets/images/Image542.jpg"
          },
@@ -86,7 +95,8 @@ $(document).ready(function () {
             choice: ["Algum adulto é aluno de matemática.", 
 					 "Nenhum adulto é aluno de matemática.", 
 					 "Algum adulto não é aluno de matemática.", 
-					 "Algum aluno de matemática é adulto."],
+                     "Algum aluno de matemática é adulto."],
+            photoquest:"assets/images/white.png",
             answer: 1,
             photo: "assets/images/Image542.jpg"
          },
@@ -95,7 +105,8 @@ $(document).ready(function () {
             choice: ["Se Débora não é determinada, então ela não é nortista.", 
 					 "Se Débora não é nortista, então ela é determinada.", 
 					 "Se Débora é determinada, então ela é nortista.", 
-					 "Se Débora é determinada, então ela não é nortista."],
+                     "Se Débora é determinada, então ela não é nortista."],
+            photoquest:"assets/images/white.png",
             answer: 0,
             photo: "assets/images/Image542.jpg"
          },
@@ -122,7 +133,8 @@ $(document).ready(function () {
             choice: ["C4", 
 					 "13M", 
 					 "9I", 
-					 "15R"],
+                     "15R"],
+            photoquest:"assets/images/white.png",
             answer: 3,
             photo: "assets/images/Image542.jpg"
          }
