@@ -1,83 +1,37 @@
 $(document).ready(function () {
     var options = [
-        {
-            question: "Quanto é 8x2+7²?", 
-            choice: ["75", "65", "256", "64"],
-            photoquest:"white",
-            answer: 1,
-            photo: "white"
-         },
-         {
-             question: "Leandro tem 40 balas chupou 12 e deu 10 para sua irmã. Com quantas balas ele ficou?", 
-            choice: ["15", "18", "14", "16"],
-            photoquest:"white",
-            answer: 1,
-            photo: "white"
-         }, 
-         {
-             question: "Quantos números 1 eu tenho de 1 até 191?", 
-            choice: ["140", "136", "132", "150" ],
-            photoquest:"white",
-            answer: 2,
-            photo: "white"
-        }, 
-        {
-            question: "Pedro tem 30 anos e tem mais três irmãos: Bianca de 27, Victor de 23 e Alex de 18. Qual a diferença de idade entre Pedro e irmão caçula?", 
-            choice: ["13", "11", "12", "14" ],
-            answer: 2,
-            photo: "white"
-        }, 
-        {
-            question: "Antônio, José e Pedro tem juntos 520 figurinhas. Antônio tem 16 figurinhas a mais do que Pedro e José tem o dobro da quantidade de figurinhas de Pedro. Qual menino possui 252 figurinhas?", 
-            choice: ["Antônio", "José", "Pedro", "Nenhum deles" ],
-            answer: 1,
-            photo: "white"
-        }, 
-        {
-            question: "Pensei em um número e multipliquei-o por 5. Depois, somei o resultado com 3 e obtive 23. Pensei em qual número?", 
-            choice: ["3", "4", "5", "6" ],
-            answer: 1,
-            photo: "white"
-        }, 
-        {
-            question: "Pedro tem 6 bolas de gude a mais do que Jorge. Os dois juntos têm 54. Quanto tem cada um?", 
-            choice: ["30 e 24", "24 e 26", "28 e 26", "32 e 22" ],
-            answer: 0,
-            photo: "white"
-        }, 
-        {
-            question: "Se seis latas de leite custam 72 reais, qual o preço de 9 latas?", 
-            choice: ["108 reais", "100 reais", "90 reais", "87 reais" ],
-            answer: 0,
-            photo: "white"
-        },
-        {
-            question: "Se seis pessoas comem 6 chocolates em 6 minutos, quantas pessoas comerão 80 chocolates em 48 minutos?", 
-            choice: ["12", "14", "10", "8" ],
-            answer: 2,
-            photo: "white"
-        }, 
-        {
-            question: "Que número abaixo completa a sequência a seguir? 12 - 6 - 18 - 24 - ??", 
-            choice: ["42", "26", "24", "30" ],
-            answer: 0,
-            photo: "white"
-        },
+        
         {
             question: "Três funcionários de um escritório cumprem,sistematicamente,horas-extras de trabalho,inclusive aos sábados e domingos:um deles a cada 15 dias,outro a cada 18 dias e o terceiro a cada 20 dias.Se hoje,os três cumprem horas extras,a próxima vez que irão cumpri-las num mesmo dia será daqui a:",
             choice: ["um mês", "um bimestre", "um trimestre", "um semestre" ],
             answer: 3,
-            photo: "white"
+            photo: "assets/images/white"
         },
         {
             question: "No alto da torre de uma emissora de televisão,duas luzes piscam com frequência diferentes. A primeira luz pisca 15 vezes por minuto e a segunda,10 vezes por minuto. Em certo instante,as luzes piscam simultaneamente. Após quantos segundos as duas voltarão a piscar juntas?",
             choice: ["10", "12", "15", "20" ],
             answer: 1,
-            photo: "white"
+            photo: "assets/images/white"
         },
         {
-            
-        }];
+            question: "Resolva a seguinte equações em relação a X no Zn indicado.", 
+            choice: ["1", "2", "3", "0" ],
+            answer: 0,
+            photo: "assets/images/mod.png"
+        },
+{
+            question: "Resolva a seguinte equações em relação a X no Zn indicado.", 
+            choice: ["6", "7", "8", "9" ],
+            answer: 3,
+            photo: "assets/images/mod2.png"
+        },
+{
+            question: "Observe o diagrama de Venn a seguir.", 
+            choice: ["(x+z)~y+~xy~z", "(x+z)~y+z~yz", "(x+z)y+~x~y~z", "(x+z)y+~xy~z" ],
+            answer: 3,
+            photo: "assets/images/veen.png"
+        }
+];
     
     var correctCount = 0;
     var wrongCount = 0;
