@@ -30,6 +30,114 @@ $(document).ready(function () {
             choice: ["(x+z)~y+~xy~z", "(x+z)~y+z~yz", "(x+z)y+~x~y~z", "(x+z)y+~xy~z" ],
             answer: 3,
             photo: "assets/images/veen.png"
+        },
+        {
+            question: "Qual das proposições abaixo é falsa?",
+            choice: ["2 <= 3", "10 > 20", "x = x^1", "6 + y >= 5 + y"],
+            answer: 1,
+            photo: "assets/images/white.png"
+        },
+        {
+            question: "Indique a proposição verdadeira:",
+            choice: ["2 > 7", "10 >= x + 10", "x = x*x^0", "6 + y >= 5 + 2y"],
+            answer: 1,
+            photo: "assets/images/white.png"
+        },
+        {
+            question: "Quantas combinações de valores diferentes tornam a expressão E = (p ∨ (¬p ∨ q)) ∧ ¬(q ∧ ¬r) válida:",
+            choice: ["2", "4", "6", "8"],
+            answer: 2,
+            photo: "assets/images/white.png"
+        },
+        {
+            question: "Uma possível forma simplificada da expressão p ∧ (¬(¬p ∨ q))) ∨ (p ∧ q) é:",
+            choice: ["¬p", "¬q", "q", "p"],
+            answer: 3,
+            photo: "assets/images/white.png"
+        },
+        {
+            question: "Considerando como argumentos as seguintes sentenças: p = Lord Charles foi morto com uma pancada na cabeça com um castiçal; q = Lady Camila estava na sala de jantar no momento do assassinato; r = Sara estava na sala de jantar no momento do assassinato; s = Cozinheiro estava na cozinha no momento do assassinato; t = Açougueiro matou Lord Charles com uma dose fatal de arsênico; u = Motorista matou Lord Charles; v = Ajudante pessoal de Lord Charles o matou; defina quem matou o Lord Charles:",
+            choice: ["Lady Camila", "O Cozinheiro", "O Ajudante", "O Motorista"],
+            answer: 3,
+            photo: "assets/images/white.png"
+        },
+        {
+            question: "Determine o conjunto verdade para o predicado n^2 ≤ 30 e domínio Z",
+            choice: ["{-5..0}", "{0..∞}", "{-5..5}", "{∞..5}"],
+            answer: 2,
+            photo: "assets/images/white.png"
+        },
+        {
+            question: "A negação da afirmação: ∀n ∈ Z, se n é primo então n é ímpar ou n = 2 é:",
+            choice: ["∃n ∈ Z, n é primo e n é par e n != 2", "∀n ∈ Z, n é primo e n é par e n != 2", "∀n ∈ Z, n é primo e n é par e n = 2", "∃n ∈ Z, n é primo e n é par e n != 2"],
+            answer: 0,
+            photo: "assets/images/white.png"
+        },
+        {
+            question: "Qual a fórmula fechada da soma 1/1·2 + 1/2·3 + 1/3·4+...+1/n(n + 1)?",
+            choice: ["1/n+1", "k+1/k+2", "k+1/n-1", "n+1/n*(k-1)"],
+            answer: 1,
+            photo: "assets/images/white.png"
+        },
+        {
+            question: "Qual a fórmula fechada da multiplicação (1 − 1/2)(1 − 1/3)(1 − 1/4)...(1 − 1/n)?",
+            choice: ["k/n", "1/k+1", "2n/n^2", "1/n^2 - 1"],
+            answer: 1,
+            photo: "assets/images/white.png"
+        },
+        {
+            question: "Dados dois conjuntos A e B, a diferença simétrica de A e B, representada por A ⊕ B tem a forma:",
+            choice: ["(A ∩ B)", "(A ∪ B) - (A ∩ B)", "(A − B)", "(A − B) ∪ (B − A)"],
+            answer: 3,
+            photo: "assets/images/white.png"
+        },
+        {
+            question: "Dadas as seguintes definições: ∀x1, x2 ∈ X, se f(x1) = f(x2) então x1 = x2 e ∀x1, x2 ∈ X, se x1 6= x2 então f(x1) 6= f(x2). Porque estas duas definições são logicamente equivalentes?",
+            choice: ["As funções possuem o mesmo domínio", "A segunda definição é a forma contrapositiva da primeira", "O conjunto união das definições não possui valores", "As definições de vírus foram atualizadas"],
+            answer: 1,
+            photo: "assets/images/white.png"
+        },
+        {
+            question: "A função que constrói a sequência 1, −1/3, 1/5, −1/7, 1/9, −1/11, ... é:",
+            choice: ["1^n / 2n + 1 * -1/1", "(-1)^n / 2n + 1 * 1^-1", "(-1)^n / 2n + 1", "(-1)^n / n + 1"],
+            answer: 2,
+            photo: "assets/images/white.png"
+        },
+        {
+            question: "Seja S = {3, 4, 5, 6, 7, 8, 9, 10, 11, 12}. Suponha que seis inteiros sejam escolhidos de S. Qual dos valores abaixo não poderá ser feita ao somar-se dois desses inteiros?",
+            choice: ["22", "7", "15", "6"],
+            answer: 3,
+            photo: "assets/images/white.png"
+        },
+        {
+            question: "Quantos inteiros devem ser escolhidos aleatoriamente para se ter certeza que pelo menos dois deles têm o mesmo resto quando divididos por 7?",
+            choice: ["7", "8", "14", "15"],
+            answer: 1,
+            photo: "assets/images/white.png"
+        },
+        {
+            question: "Suponha um grupo de 40 pessoas, todas na faixa de 17 a 34 anos. Você quer fazer uma aposta que o grupo possui pelo menos x pessoas com a mesma idade. Qual é o maior valor de x que você pode apostar com certeza para vencer a aposta?",
+            choice: ["1", "2", "3", "4"],
+            answer: 2,
+            photo: "assets/images/white.png"
+        },
+        {
+            question: " Quantos números ímpares existem no intervalo [10, 99] que possuem dígitos distintos?",
+            choice: ["9", "10", "99", "40"],
+            answer: 3,
+            photo: "assets/images/white.png"
+        },
+        {
+            question: " Quantas formas diferentes as letras da palavra LETRA podem ser arranjadas se as letras LE devem ficar juntas mas podem ser escritas como LE ou EL?",
+            choice: ["2!", "2!*4", "4!", "4! - 2"],
+            answer: 2,
+            photo: "assets/images/white.png"
+        },
+        {
+            question: " Quantas soluções existem para a equação x1 + x2 + x3 ≤ 20, sendo que cada xi, i = 1, 2, 3, é um inteiro não negativo? ",
+            choice: ["1771", "20", "3", "780"],
+            answer: 0,
+            photo: "assets/images/white.png"
         }
 ];
     
