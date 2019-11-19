@@ -5,7 +5,7 @@ $(document).ready(function () {
             question: "Três funcionários de um escritório cumprem,sistematicamente,horas-extras de trabalho,inclusive aos sábados e domingos:um deles a cada 15 dias,outro a cada 18 dias e o terceiro a cada 20 dias.Se hoje,os três cumprem horas extras,a próxima vez que irão cumpri-las num mesmo dia será daqui a:",
             choice: ["um mês", "um bimestre", "um trimestre", "um semestre" ],
             answer: 3,
-            photoquest: "assets/images/white",
+            photoquest: "assets/images/white.png",
             photo: "assets/images/Image542.jpg"
             
         },
