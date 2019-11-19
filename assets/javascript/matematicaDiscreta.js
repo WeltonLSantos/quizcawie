@@ -51,7 +51,7 @@ $(document).ready(function () {
         },
         {
             question: "Indique a proposição verdadeira:",
-            choice: ["2 > 7", "10 >= x + 10", "x = x*x^0", "6 + y >= 5 + 2y"],
+            choice: ["2 > 7", "1 + x >= x + 10", "x = x*x^0", "6 + y >= 5 + 2y"],
             answer: 1,
             photoquest: "assets/images/white.png",
             photo: "assets/images/Image542.jpg"
